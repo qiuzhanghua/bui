@@ -43,11 +43,19 @@ yarn package
 npm publish --access public
 ```
 
+---
 
-## Sample
-see src/routes/index.svelte
-(fontawesome 6.1.1 added)
+## Story Book
 
-**Button** only
+```bash
+yarn storybook
+```
 
-support user defined `disabled`, `style` etc.
+or
+
+```bash
+# run this for new version
+yarn build-storybook
+# and then
+http-server storybook-static
+```
